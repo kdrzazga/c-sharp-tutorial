@@ -1,0 +1,15 @@
+#VS Project
+packages/*
+.vs/*
+*/obj/*
+*.pdb
+*.exe
+*.dll
+*/debug.log
+*/Debug/*
+*/bin/Debug/*
+SeleniumFramework/bin/*
+ToolsQA/bin/*
+UI/bin/*
+*/packages.config
+
