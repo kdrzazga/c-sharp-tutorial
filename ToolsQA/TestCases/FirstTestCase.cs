@@ -17,9 +17,13 @@ namespace ToolsQA.TestCases
         {
             this.driver = WebDriverFactory.CreateChromeDriver();
             this.driver.Url = "http://www.demoqa.com";
-            FindElements();
 
+            WindowUtils.MaximizeWindow(this.driver);
+            FindElements();
+                        
             ClickSortable();
+
+            this.driver.Close();
         }
 
         private void FindElements()

@@ -78,7 +78,8 @@
   <ItemGroup>
     <Compile Include="TestCases\FirstTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestCases\SeleniumEasyTests.cs" />
+    <Compile Include="TestCases\SeleniumEasy\BootstrapAlertMessagesDemoPage.cs" />
+    <Compile Include="TestCases\SeleniumEasy\SeleniumEasyTests.cs" />
     <Compile Include="TestRunner.cs" />
   </ItemGroup>
   <ItemGroup>
